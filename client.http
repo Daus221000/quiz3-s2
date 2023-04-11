@@ -11,6 +11,19 @@ Content-Type: application/json
 
 {
 
-    "username": "M.Firdaus",
-    "password": "123456"
+     "username" : "firdaus",
+     "password" : "654321",
+      "name": "Firdaus",
+     "email" : "firdaus2210@gmail.com"
+}
+
+POST http://localhost:3000/register
+Content-Type: application/json
+
+{
+
+     "username" : "firdaus",
+     "password" : "654321",
+      "name": "Firdaus",
+     "email" : "firdaus2210@gmail.com"
 }
